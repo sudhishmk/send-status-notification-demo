@@ -64,8 +64,8 @@ spec:
     - name: body
       value: "$(tasks.status)"
     - name: sender
-      value: "sendera@gmail.com"
+      value: "sendera@server.com"
     - name: recipients
-      value: "receiver@gmail.com"
+      value: "receiver@server.com"
     taskRef:
       name: sendmail
